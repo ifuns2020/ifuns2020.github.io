@@ -8,22 +8,6 @@ var informations = {
             title: 'Algoritmaru',
             items: [
                 [
-                    '### Info',
-                    '- PJ: Alin Nur Damayanti',
-                    '- Website: <https://himaster.mipa.uns.ac.id/algoritmaru>',
-                    '- Target 15 soal terjawab per **Sabtu, 24 Oktober 2020**',
-                    '- Setiap orang **WAJIB** menjawab sampai nomor terakhir yang ter-solve dan setidaknya mencoba menebak nomor terakhir',
-                    '- List kontak kakak asuh (bisa di PC tuh): [KLIK DI SINI](https://drive.google.com/file/d/1mZh0lZyKtDrvKgv3vg_vTn15OA-6T81K/view?usp=sharing)',
-                    '- **Perhatikan rules jika mau chat kating**'
-                ].join('\n'),
-                [
-                    '### Rules Chat Kating',
-                    '1. Sopan, jangan ganggu kalau sibuk, **pake basa basi dulu jangan to the point**',
-                    '2. Jangan lupa kenalan (tunjukin nama, angkatan, nim kalo pertamakali chat), silakan membahas yang kalian mau, bisa bahas tugas, hobi, dan lainnya, baru tanya clue',
-                    '3. Waktunya yang logis, kalau memang waktu istirahat ya diusahain jangan ngechat, takutnya si kating malah ngerasa terganggu',
-                    '4. Semua anak **WAJIB** chat dan minta clue minimal satu kating karena ada intel yang mengawasi :D (bisa keliatan tuch yang gapernah chat siapa aja xixi)'
-                ].join('\n'),
-                [
                     '### List Jawaban',
                     '_NB penulisan harus sama persis ya, huruf besar kecil dan tanda bacanya juga_',
                     '1. `Gedung B Lt. 4`',
@@ -37,6 +21,22 @@ var informations = {
                     '9. `???` (seputar Gennady Korotkevich, clue: mengalihkan, petualang, 1 atau 2 kata, competitive programming, messi, ural, 2 benua, pelajari bahasa soviet, contest, poland lithuania latvia ukraina rusia)',
                     '',
                     '**Kalo udah jawab sampai no 8 isi ceklis di [sini](https://docs.google.com/spreadsheets/d/1cDxlTGAK_Nu1Yd16yON_M_kBwO9KZl2RPDHEV217r0s/edit?usp=sharing) ya (buka di PC aja)**',
+                ].join('\n'),
+                [
+                    '### Rules Chat Kating',
+                    '1. Sopan, jangan ganggu kalau sibuk, **pake basa basi dulu jangan to the point**',
+                    '2. Jangan lupa kenalan (tunjukin nama, angkatan, nim kalo pertamakali chat), silakan membahas yang kalian mau, bisa bahas tugas, hobi, dan lainnya, baru tanya clue',
+                    '3. Waktunya yang logis, kalau memang waktu istirahat ya diusahain jangan ngechat, takutnya si kating malah ngerasa terganggu',
+                    '4. Semua anak **WAJIB** chat dan minta clue minimal satu kating karena ada intel yang mengawasi :D (bisa keliatan tuch yang gapernah chat siapa aja xixi)'
+                ].join('\n'),
+                [
+                    '### Info',
+                    '- PJ: Alin Nur Damayanti',
+                    '- Website: <https://himaster.mipa.uns.ac.id/algoritmaru>',
+                    '- Target 15 soal terjawab per **Sabtu, 24 Oktober 2020**',
+                    '- Setiap orang **WAJIB** menjawab sampai nomor terakhir yang ter-solve dan setidaknya mencoba menebak nomor terakhir',
+                    '- List kontak kakak asuh (bisa di PC tuh): [KLIK DI SINI](https://drive.google.com/file/d/1mZh0lZyKtDrvKgv3vg_vTn15OA-6T81K/view?usp=sharing)',
+                    '- **Perhatikan rules jika mau chat kating**'
                 ].join('\n')
             ]
         },
@@ -44,18 +44,10 @@ var informations = {
             title: 'Idea Pitching (DL Kamis, 22 Oktober 2020 23.59 WIB)',
             items: [
                 [
-                    '### Info',
-                    '- PJ: Hendri Nurmahmudi',
-                    '- Membuat PPT untuk merepresentasikan KTI (maks 10 slide, maks 5 slide yang berisi kata2)',
-                    '- Tiap slide maks 25 kata termasuk pembuka dan penutup',
-                    '- Isi: logo perusahaan, ringkasan perusahaan, analisis perusahaan + kompetitor, deskripsi layanan, target pasar, latar belakang produk, UI design',
-                    '- Presentasi dilakukan pada **Sabtu, 24 Oktober 2020** secara berkelompok (masing-masing anggota menggunakan virtual background yang merupakan tampilan dari slide yang dibaca)',
-                    '- **SETIAP KELOMPOK WAJIB MENGGUNAKAN GOOGLE SLIDES UNTUK MEMPERMUDAH KOLABORASI, KETUA KELOMPOK MENCANTUMKAN LINK GOOGLE SLIDES DI [SINI](https://docs.google.com/spreadsheets/d/1ov-_GXvaeygCQScJJuVBcrNfowLpP9349NMP0E_jL_Y/edit?usp=sharing) UNTUK MEMPERMUDAH PEMANTAUAN**',
-                    '',
-                    '### Tambahan',
-                    '- Logo dan nama perusahaan kompetitor boleh disertakan (opsional)',
-                    '',
-                    'Ketentuan selebihnya dapat diklik [di sini](https://docs.google.com/document/d/1ZUx_EsY8PUf6ntA0_b9VeaXF6RyAaMg2jZUJLZnt08w/edit?usp=sharing)'
+                    '### Pengumpulan',
+                    '- Maksimal **Kamis, 22 Oktober 2020 23.59 WIB**',
+                    '- Pengumpulan PPT ke e-mail <himaster.osprodi@gmail.com>',
+                    '- Format pengumpulan: NoKelompok_Judul'
                 ].join('\n'),
                 [
                     '### Pembagian Kelompok',
@@ -71,10 +63,18 @@ var informations = {
                     '10. Pramudya lutfi: adkha wild, muh daffa, enricho, umar, maulana daffa, tristan, vicko'
                 ].join('\n'),
                 [
-                    '### Pengumpulan',
-                    '- Maksimal **Kamis, 22 Oktober 2020 23.59 WIB**',
-                    '- Pengumpulan PPT ke e-mail <himaster.osprodi@gmail.com>',
-                    '- Format pengumpulan: NoKelompok_Judul'
+                    '### Info',
+                    '- PJ: Hendri Nurmahmudi',
+                    '- Membuat PPT untuk merepresentasikan KTI (maks 10 slide, maks 5 slide yang berisi kata2)',
+                    '- Tiap slide maks 25 kata termasuk pembuka dan penutup',
+                    '- Isi: logo perusahaan, ringkasan perusahaan, analisis perusahaan + kompetitor, deskripsi layanan, target pasar, latar belakang produk, UI design',
+                    '- Presentasi dilakukan pada **Sabtu, 24 Oktober 2020** secara berkelompok (masing-masing anggota menggunakan virtual background yang merupakan tampilan dari slide yang dibaca)',
+                    '- **SETIAP KELOMPOK WAJIB MENGGUNAKAN GOOGLE SLIDES UNTUK MEMPERMUDAH KOLABORASI, KETUA KELOMPOK MENCANTUMKAN LINK GOOGLE SLIDES DI [SINI](https://docs.google.com/spreadsheets/d/1ov-_GXvaeygCQScJJuVBcrNfowLpP9349NMP0E_jL_Y/edit?usp=sharing) UNTUK MEMPERMUDAH PEMANTAUAN**',
+                    '',
+                    '### Tambahan',
+                    '- Logo dan nama perusahaan kompetitor boleh disertakan (opsional)',
+                    '',
+                    'Ketentuan selebihnya dapat diklik [di sini](https://docs.google.com/document/d/1ZUx_EsY8PUf6ntA0_b9VeaXF6RyAaMg2jZUJLZnt08w/edit?usp=sharing)'
                 ].join('\n')
             ]
         },
