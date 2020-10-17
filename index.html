@@ -1,9 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width; initial-scale=1">
         <title>Kanal Informasi IF20 UNS</title>
+        <link rel="stylesheet" href="lib/spectre.min.css">
+        <link rel="stylesheet" href="lib/spectre-icons.min.css">
+        <script src="lib/vue.min.js"></script>
+        <script src="lib/marked.min.js"></script>
+        <script src="jarkoman.js"></script>
+        <script src="app.js"></script>
     </head>
     <body>
-        <p>Test</p>
+        <div id="app" style="min-height: 100vh; display: flex; flex-direction: column">
+            <div style="flex: 1 0 auto">
+                <header class="bg-primary" style="padding: 1.5rem">
+                    <h3>Portal Informasi</h3>
+                    <h5>Informatika UNS Angkatan 2020</h5>
+                </header>
+                <div class="container grid-xl" style="margin-top: 1.5rem; margin-bottom: 1.5rem">
+                    <div class="accordion" style="margin-bottom: 1rem">
+                        <span v-for="(category, id) in categories">
+                            <input type="radio" v-bind:id="'category-' + id" name="category-radio" hidden>
+                            <label class="accordion-header" v-bind:for="'category-' + id">{{ category }}</label>
+                            <div class="accordion-body">
+                                <ul class="nav" v-if="informations[category] !== null">
+                                    <li v-for="information in informations[category]" class="nav-item" v-bind:class="[information === selectedInformation ? 'active' : '']">
+                                        <a href="#!" v-on:click="selectedInformation = information">{{ information.title }}</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </span>
+                    </div>
+                    <div v-if="selectedInformation !== null">
+                        <h5>{{ selectedInformation.category }} / {{ selectedInformation.title }}</h5>
+                        <div class="columns" style="margin-bottom: 1rem">
+                            <div v-for="item in selectedInformation.items" class="column col-4 col-sm-12" style="margin-bottom: 1rem">
+                                <div class="card" style="height: 100%">
+                                    <div class="card-body" v-html="marked(item)"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div v-if="selectedInformation === null" class="empty">
+                        <div class="empty-icon"><i class="icon icon-4x icon-message"></i></div>
+                        <p class="empty-title h5">Pilih Informasi</p>
+                        <p class="empty-subtitle">Silakan untuk memilih salah satu informasi menggunakan menu di atas</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-dark text-center" style="padding: 1.5rem">
+                <div>Copyright &copy; Informatika 2020 UNS</div>
+            </footer>
+        </div>
     </body>
 </html>
