@@ -18,19 +18,16 @@
                     <h5>Informatika UNS Angkatan 2020</h5>
                 </header>
                 <div class="container grid-xl" style="margin-top: 1.5rem; margin-bottom: 1.5rem">
-                    <div class="accordion" style="margin-bottom: 1rem">
-                        <span v-for="(category, id) in categories">
-                            <input type="radio" v-bind:id="'category-' + id" name="category-radio" hidden>
-                            <label class="accordion-header" v-bind:for="'category-' + id">{{ category }}</label>
-                            <div class="accordion-body">
-                                <ul class="nav" v-if="informations[category] !== null">
-                                    <li v-for="information in informations[category]" class="nav-item" v-bind:class="[information === selectedInformation ? 'active' : '']">
-                                        <a href="#!" v-on:click="selectedInformation = information">{{ information.title }}</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </span>
-                    </div>
+                    <ul class="nav" style="margin-bottom: 1rem">
+                        <li v-for="(category, id) in categories">
+                            <b>{{ category }}</b>
+                            <ul class="nav" v-if="informations[category] !== null">
+                                <li v-for="information in informations[category]" class="nav-item" v-bind:class="[information === selectedInformation ? 'active' : '']">
+                                    <a href="#!" v-on:click="selectedInformation = information">{{ information.title }}</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                     <div v-if="selectedInformation !== null">
                         <h5>{{ selectedInformation.category }} / {{ selectedInformation.title }}</h5>
                         <div class="columns" style="margin-bottom: 1rem">

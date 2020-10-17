@@ -13,7 +13,7 @@ var informations = {
                     '2. **quick_sort**',
                     '3. **3192**'
                 ].join('\n'),
-                'Kalo udah isi di [sini](https://bit.ly/DhinAlgoritmaru)',
+                'Kalo udah isi ceklis di [sini](https://bit.ly/DhinAlgoritmaru)',
             ]
         },
         {
