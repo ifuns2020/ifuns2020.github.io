@@ -34,7 +34,7 @@
                         <div class="columns" style="margin-bottom: 1rem">
                             <div v-for="item in selectedInformation.items" class="column col-6 col-md-12" style="margin-bottom: 1rem">
                                 <div class="card" style="height: 100%">
-                                    <div class="card-body" v-html="marked(item)"></div>
+                                    <div class="card-body" v-html="typeof(item) === 'object' ? marked(item.join('\n')) : marked(item)"></div>
                                 </div>
                             </div>
                         </div>
