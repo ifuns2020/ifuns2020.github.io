@@ -2,3 +2,11 @@
     word-break: break-word;
 }
 
+ol {
+    list-style-position: outside;
+}
+
+ul {
+    list-style-position: outside;
+}
+
