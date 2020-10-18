@@ -8,7 +8,8 @@ window.addEventListener('load', function() {
         data: {
             categories: [],
             informations: {},
-            selectedInformation: null
+            selectedInformation: null,
+            installable: false
         },
         mounted: function() {
             this.categories = categories;
@@ -20,7 +21,11 @@ window.addEventListener('load', function() {
                 }
             }
             this.informations = inf;
+            if (typeof(navigator.serviceWorker) !== 'undefined') {
+                navigator.serviceWorker.register('service.js').then((function() {
+                    this.installable = true;
+                }).bind(this));
+            }
         }
     });
 });
-
