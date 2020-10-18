@@ -43,6 +43,7 @@ var informations = {
         {
             title: 'Idea Pitching (DL Kamis, 22 Oktober 2020 23.59 WIB)',
             items: [
+                'Presentasi dilakukan dengan cara salah satu anggota kelompok meng-**share screen**, tidak jadi menggunakan virtual background. Presentasi dilakukan dengan durasi maks 5 menit.',
                 [
                     '### Pengumpulan',
                     '- Maksimal **Kamis, 22 Oktober 2020 23.59 WIB**',
@@ -68,7 +69,7 @@ var informations = {
                     '- Membuat PPT untuk merepresentasikan KTI (maks 10 slide, maks 5 slide yang berisi kata2)',
                     '- Tiap slide maks 25 kata termasuk pembuka dan penutup',
                     '- Isi: logo perusahaan, ringkasan perusahaan, analisis perusahaan + kompetitor, deskripsi layanan, target pasar, latar belakang produk, UI design',
-                    '- Presentasi dilakukan pada **Sabtu, 24 Oktober 2020** secara berkelompok (masing-masing anggota menggunakan virtual background yang merupakan tampilan dari slide yang dibaca)',
+                    '- Presentasi dilakukan pada **Sabtu, 24 Oktober 2020** secara berkelompok (salah satu anggota meng-**share screen**, durasi maks 5 menit)',
                     '- **SETIAP KELOMPOK WAJIB MENGGUNAKAN GOOGLE SLIDES UNTUK MEMPERMUDAH KOLABORASI, KETUA KELOMPOK MENCANTUMKAN LINK GOOGLE SLIDES DI [SINI](https://docs.google.com/spreadsheets/d/1ov-_GXvaeygCQScJJuVBcrNfowLpP9349NMP0E_jL_Y/edit?usp=sharing) UNTUK MEMPERMUDAH PEMANTAUAN**',
                     '',
                     '### Tambahan',
