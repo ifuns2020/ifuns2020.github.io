@@ -1,6 +1,7 @@
 'use strict';
 
 var app = null;
+var installPrompt = null;
 
 window.addEventListener('load', function() {
     app = new Vue({
@@ -9,7 +10,8 @@ window.addEventListener('load', function() {
             categories: [],
             informations: {},
             selectedInformation: null,
-            installable: false
+            installable: false,
+            installed: true
         },
         mounted: function() {
             this.categories = categories;
@@ -25,6 +27,28 @@ window.addEventListener('load', function() {
                 navigator.serviceWorker.register('service.js').then((function() {
                     this.installable = true;
                 }).bind(this));
+            }
+            window.addEventListener('beforeinstallprompt', (function(e) {
+                e.preventDefault();
+                installPrompt = e;
+                this.installed = false;
+                this.installable = true;
+            }).bind(this));
+            window.addEventListener('appinstalled', (function() {
+                this.installed = true;
+            }).bind(this));
+        },
+        methods: {
+            install: function() {
+                if (this.installable) {
+                    if (installPrompt !== null) {
+                        installPrompt.prompt();
+                    } else {
+                        window.alert('Anda dapat menginstall aplikasi ini dengan cara mengklik \'Add to Home Screen\' atau sejenisnya. Jika sudah, abaikan saja pesan ini');
+                    }
+                } else {
+                    window.alert('Aplikasi ini tidak dapat dipasang pada perangkat anda. Silakan untuk meng-update browser anda atau menggantinya dengan Chrome');
+                }
             }
         }
     });

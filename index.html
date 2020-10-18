@@ -44,6 +44,9 @@
                         <div class="empty-icon"><i class="icon icon-4x icon-message"></i></div>
                         <p class="empty-title h5">Pilih Informasi</p>
                         <p class="empty-subtitle">Silakan untuk memilih salah satu informasi menggunakan menu di atas</p>
+                        <div class="empty-action">
+                            <button type="button" class="btn btn-success" v-bind:disabled="!installable || installed" v-on:click="install">{{ installable && installed ? 'TERINSTALL' : 'INSTALL' }} <i class="icon" v-bind:class="[installed ? 'icon-check' : 'icon-plus']"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
