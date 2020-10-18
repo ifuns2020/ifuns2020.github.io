@@ -34,15 +34,18 @@ window.addEventListener('load', function() {
                 this.installed = false;
                 this.installable = true;
             }).bind(this));
-            window.addEventListener('appinstalled', (function() {
-                this.installed = true;
-            }).bind(this));
         },
         methods: {
             install: function() {
                 if (this.installable) {
                     if (installPrompt !== null) {
                         installPrompt.prompt();
+                        installPrompt.userChoice.then((function(result) {
+                            if (result.outcome === 'accepted') {
+                                this.installed = true;
+                                window.installPrompt = null;
+                            }
+                        }).bind(this));
                     } else {
                         window.alert('Anda dapat menginstall aplikasi ini dengan cara mengklik \'Add to Home Screen\' atau sejenisnya. Jika sudah, abaikan saja pesan ini');
                     }
