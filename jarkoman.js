@@ -18,9 +18,10 @@ var informations = {
                     '6. `ILOVEU`',
                     '7. `Switch Allied Telesis AT-FS750`',
                     '8. `Update Table Routing`',
-                    '9. `???` (seputar Gennady Korotkevich, clue: mengalihkan, petualang, 1 atau 2 kata, competitive programming, messi, ural, 2 benua, pelajari bahasa soviet, contest, poland lithuania latvia ukraina rusia)',
+                    '9. `Gennady Korotkevich`',
+                    '10. `???` (seputar kating, clue: botak, pehhh, tahu kuning, cbr oranye)',
                     '',
-                    '**Kalo udah jawab sampai no 8 isi ceklis di [sini](https://docs.google.com/spreadsheets/d/1cDxlTGAK_Nu1Yd16yON_M_kBwO9KZl2RPDHEV217r0s/edit?usp=sharing) ya (buka di PC aja)**',
+                    '**Kalo udah jawab sampai no 9 isi ceklis di [sini](https://docs.google.com/spreadsheets/d/1cDxlTGAK_Nu1Yd16yON_M_kBwO9KZl2RPDHEV217r0s/edit?usp=sharing) ya JANGAN LUPA (buka di PC aja)**',
                 ],
                 [
                     '### Rules Chat Kating',
@@ -86,6 +87,11 @@ var informations = {
                     'Ketentuan tugas Life Mapping lebih lanjut: [KLIK DI SINI](https://docs.google.com/document/d/1zBj4Asjt4zDBiJ-auH6YWHHYD8Llx2Fl66-YQZNUFqU/edit)',
                     '',
                     'Kalau sudah mengumpulkan **isi ceklis [di sini](https://docs.google.com/spreadsheets/d/196f2jE5bOq_u6d5z2uByTFbM2IbkD9osHQutNM_ZWks/edit)** (buka di PC aja yaa)'
+                ],
+                [
+                    'Ukuran 2K: **2560x1440px**',
+                    '',
+                    'Tema gradien buat background: #f3ff7e, #00d4ff'
                 ],
                 [
                     '### Info',
