@@ -83,6 +83,7 @@ var informations = {
         {
             title: 'Life Mapping (DL Rabu 21 Oktober 2020 18.00 WIB)',
             items: [
+                'Kepada seluruh anggota Dhinakara dihimbau untuk mengumpulkan maks **hari Selasa, 20 Oktober pukul 23.59**',
                 [
                     'Link pengumpulan: [FOLDER GOOGLE DRIVE](https://drive.google.com/drive/u/0/folders/1uNjnWeE1MTWe4TLqgPcGpZPEGf1keyHW)',
                     '',
