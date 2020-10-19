@@ -2,6 +2,7 @@
 
 var app = null;
 var installPrompt = null;
+var commitUrl = 'https://api.github.com/repos/ifuns2020/ifuns2020.github.io/commits/HEAD';
 
 window.addEventListener('load', function() {
     app = new Vue({
@@ -11,7 +12,9 @@ window.addEventListener('load', function() {
             informations: {},
             selectedInformation: null,
             installable: false,
-            installed: true
+            installed: true,
+            lastUpdated: 'N/A',
+            lastUpdatedDelta: 'N/A'
         },
         mounted: function() {
             this.categories = categories;
@@ -34,6 +37,8 @@ window.addEventListener('load', function() {
                 this.installed = false;
                 this.installable = true;
             }).bind(this));
+
+            this.fetchLastUpdated();
         },
         methods: {
             install: function() {
@@ -52,6 +57,35 @@ window.addEventListener('load', function() {
                 } else {
                     window.alert('Aplikasi ini tidak dapat dipasang pada perangkat anda. Silakan untuk meng-update browser anda atau menggantinya dengan Chrome');
                 }
+            },
+            fetchLastUpdated: function() {
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', commitUrl);
+                xhr.responseType = 'json';
+                xhr.addEventListener('load', (function() {
+                    if (xhr.status == 200) {
+                        var dateStr = xhr.response.commit.committer.date;
+                        var date = new Date(dateStr);
+                        this.lastUpdated = date.toString();
+
+                        var now = new Date();
+                        var delta = now.getTime() - date.getTime();
+                        var deltaDays = Math.floor(delta / 86400000);
+                        var deltaHours = Math.floor(delta / 3600000);
+                        var deltaMins = Math.floor(delta / 60000);
+                        var deltaSecs = Math.floor(delta / 1000);
+                        if (deltaDays != 0) {
+                            this.lastUpdatedDelta = deltaDays + ' hari';
+                        } else if (deltaHours != 0) {
+                            this.lastUpdatedDelta = deltaHours + ' jam';
+                        } else if (deltaMins != 0) {
+                            this.lastUpdatedDelta = deltaMins + ' menit';
+                        } else if (deltaSecs != 0) {
+                            this.lastUpdatedDelta = deltaSecs + ' detik';
+                        }
+                    }
+                }).bind(this));
+                xhr.send();
             }
         }
     });
