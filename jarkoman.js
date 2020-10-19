@@ -84,6 +84,11 @@ var informations = {
             title: 'Life Mapping (DL Rabu 21 Oktober 2020 18.00 WIB)',
             items: [
                 [
+                    'Link pengumpulan: [FOLDER GOOGLE DRIVE](https://drive.google.com/drive/u/0/folders/1uNjnWeE1MTWe4TLqgPcGpZPEGf1keyHW)',
+                    '',
+                    'Format: `Lifemap_NIM_Nama.png`'
+                ],
+                [
                     'Ketentuan tugas Life Mapping lebih lanjut: [KLIK DI SINI](https://docs.google.com/document/d/1zBj4Asjt4zDBiJ-auH6YWHHYD8Llx2Fl66-YQZNUFqU/edit)',
                     '',
                     'Kalau sudah mengumpulkan **isi ceklis [di sini](https://docs.google.com/spreadsheets/d/196f2jE5bOq_u6d5z2uByTFbM2IbkD9osHQutNM_ZWks/edit)** (buka di PC aja yaa)'
