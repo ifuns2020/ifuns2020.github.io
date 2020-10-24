@@ -44,62 +44,39 @@ var informations = {
             ]
         },
         {
-            title: 'Idea Pitching (DL Kamis, 22 Oktober 2020 23.59 WIB)',
+            title: 'Buku Angkatan (DL Kamis 29 Oktober 2020 08.00 WIB)',
             items: [
-                'Presentasi dilakukan dengan cara salah satu anggota kelompok meng-**share screen**, tidak jadi menggunakan virtual background. Presentasi dilakukan dengan durasi maks 5 menit.',
                 [
-                    '### Pengumpulan',
-                    '- Maksimal **Kamis, 22 Oktober 2020 23.59 WIB**',
-                    '- Pengumpulan PPT ke e-mail <himaster.osprodi@gmail.com>',
-                    '- Format pengumpulan: NoKelompok_Judul'
+                    '### Deskripsi dan Ketentuan',
+                    '1. Penugasan bersifat kelompok dan dikerjakan bersama2 oleh satu angkatan',
+                    '2. Buku angkatan dibuat pada google slides berukuran **16:10**',
+                    '3. Buku angkatan dibuat dengan urutan sbb: **kover depan, daftar isi, biodata mahasiswa, foto angkatan, kover belakang**',
+                    '4. Desain kover dominan warna **#ee82ee** dengan maks campuran 3 warna',
+                    '5. Kover depan berisikan kumpulan **foto ijazah** yang disusun sedemikian rupa sehingga membentuk tulisan **IF20**',
+                    '6. Buku angkatan harus memiliki **daftar isi**',
+                    '7. Slide biodata mahasiswa disusun **urut sesuai NIM**',
+                    '8. Font dan ukuran font biodata mahasiswa kompak satu angkatan',
+                    '9. Masing-masing slide digunakan utk 1 mahasiswa dan berisi biodata yaitu: **foto, nama lengkap, nama panggilan, tempat tanggal lahir, asal, sosmed (diutamakan IG), first impression**',
+                    '10. Foto biodata yg digunakan adalah foto screenshot twibbon dgn ukuran **5x5**',
+                    '11. Bagian first impression diisi oleh satu anggota angkatan',
+                    '12. Semua format slide biodata mahasiswa harus kompak satu angkatan',
+                    '13. Untuk slide foto angkatan merupakan foto angkatan yang diambil **pada satu waktu yang sama**',
+                    '14. Ketidakhadiran satu atau lebih anggota atas alasan apapun menyebabkan foto angkatan **tidak valid**',
+                    '15. Cover belakang bersifat bebas namun **senada** dengan desain kover pembuka',
+                    '16. Buku angkatan dikumpulkan oleh pj dalam bentuk pdf dengan format nama file: **BUKU ANGKATAN 2020**',
+                    '17. Buku angkatan dikumpulkan kepada sc paling lambat pada **29 okt 2020 jam 8 pagi**',
+                    '18. Pertanyaan bisa ditanyakan lewat PJ pada SC tugas',
+                    '19. PJ **wajib** melaporkan progress kepada SC setiap ada progress baru'
                 ],
-                [
-                    '### Pembagian Kelompok',
-                    '1. Abd Zufar: Reyhano, Fariz dafffa, hasna muna, reni setya, zaky abd, fadil prat, qonita aulia',
-                    '2. Ardhyla Dwi: Babas, biwbiw, tiar bach, mfaroos, digno, hilmi, miko',
-                    '3. Dewangga: Abhy, Ai, alfy bayu, andini r, ad bgsp, pilar, qon nisa',
-                    '4. Galih pel: akmal, delkornelp, yudis rakha, lukman, ali, muhfahlevi, (who dis?)',
-                    '5. Hendri: khol hilmy, tita syak, reza, galih sapu, bintang put, dimas ainun, farhan4',
-                    '6. Farnoov: giga, jo, biyu, detha, ipul, dilah, arga',
-                    '7. Rafdi: alwi, syauqi, irfan jalal, theoresia, latifah, tya, aldo atalah',
-                    '8. Yudhis adi: raflifajard, sengsarah, iqbal, nina, setia, adriel, ied fajar',
-                    '9. Satya Maulana: moses, odi, khusnia q, ilham nur, aaron, ian, ivan',
-                    '10. Pramudya lutfi: adkha wild, muh daffa, enricho, umar, maulana daffa, tristan, vicko'
-                ],
-                [
-                    '### Info',
-                    '- PJ: Hendri Nurmahmudi',
-                    '- Membuat PPT untuk merepresentasikan KTI (maks 10 slide, maks 5 slide yang berisi kata2)',
-                    '- Tiap slide maks 25 kata termasuk pembuka dan penutup',
-                    '- Isi: logo perusahaan, ringkasan perusahaan, analisis perusahaan + kompetitor, deskripsi layanan, target pasar, latar belakang produk, UI design',
-                    '- Presentasi dilakukan pada **Sabtu, 24 Oktober 2020** secara berkelompok (salah satu anggota meng-**share screen**, durasi maks 5 menit)',
-                    '- **SETIAP KELOMPOK WAJIB MENGGUNAKAN GOOGLE SLIDES UNTUK MEMPERMUDAH KOLABORASI, KETUA KELOMPOK MENCANTUMKAN LINK GOOGLE SLIDES DI [SINI](https://docs.google.com/spreadsheets/d/1ov-_GXvaeygCQScJJuVBcrNfowLpP9349NMP0E_jL_Y/edit?usp=sharing) UNTUK MEMPERMUDAH PEMANTAUAN**',
-                    '',
-                    '### Tambahan',
-                    '- Logo dan nama perusahaan kompetitor boleh disertakan (opsional)',
-                    '',
-                    'Ketentuan selebihnya dapat diklik [di sini](https://docs.google.com/document/d/1ZUx_EsY8PUf6ntA0_b9VeaXF6RyAaMg2jZUJLZnt08w/edit?usp=sharing)'
-                ]
             ]
         },
         {
-            title: 'Life Mapping (DL Rabu 21 Oktober 2020 18.00 WIB)',
+            title: 'Revisi Life Mapping (DL Rabu 28 Oktober 2020 18.00 WIB)',
             items: [
-                'Kepada seluruh anggota Dhinakara dihimbau untuk mengumpulkan maks **hari Rabu pagi**',
-                [
-                    'Link pengumpulan: [GOOGLE FORMS](https://forms.gle/kDCgyuzzhGVN17yF7)',
-                    '',
-                    'Format: `Lifemap_NIM_Nama.png`'
-                ],
-                [
-                    'Ketentuan tugas Life Mapping lebih lanjut: [KLIK DI SINI](https://docs.google.com/document/d/1zBj4Asjt4zDBiJ-auH6YWHHYD8Llx2Fl66-YQZNUFqU/edit)',
-                    '',
-                    'Kalau sudah mengumpulkan **isi ceklis [di sini](https://docs.google.com/spreadsheets/d/196f2jE5bOq_u6d5z2uByTFbM2IbkD9osHQutNM_ZWks/edit)** (buka di PC aja yaa)'
-                ],
                 [
                     'Ukuran 2K: **2560x1440px**',
                     '',
-                    'Tema gradien buat background: #f3ff7e, #00d4ff'
+                    'Tema gradien buat background: #f3ff7e, #00d4ff (menunggu konfirmasi)'
                 ],
                 [
                     '### Info',
