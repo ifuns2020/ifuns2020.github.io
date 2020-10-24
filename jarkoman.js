@@ -7,6 +7,7 @@ var informations = {
         {
             title: 'Algoritmaru',
             items: [
+                'Target **20** soal terjawab per **Sabtu, 31 Oktober 2020**',
                 'Isi ceklis di [GOOGLE DRIVE](https://docs.google.com/spreadsheets/d/1cDxlTGAK_Nu1Yd16yON_M_kBwO9KZl2RPDHEV217r0s/edit?usp=sharing) [BUKA DI PC] setelah menjawab sampai nomor **12**',
                 [
                     '### List Jawaban',
@@ -36,7 +37,6 @@ var informations = {
                     '### Info',
                     '- PJ: Alin Nur Damayanti',
                     '- Website: <https://himaster.mipa.uns.ac.id/algoritmaru>',
-                    '- Target 15 soal terjawab per **Sabtu, 24 Oktober 2020**',
                     '- Setiap orang **WAJIB** menjawab sampai nomor terakhir yang ter-solve dan setidaknya mencoba menebak nomor terakhir',
                     '- List kontak kakak asuh (bisa di PC tuh): [KLIK DI SINI](https://drive.google.com/file/d/1mZh0lZyKtDrvKgv3vg_vTn15OA-6T81K/view?usp=sharing)',
                     '- **Perhatikan rules jika mau chat kating**'
@@ -58,7 +58,7 @@ var informations = {
                     '8. Font dan ukuran font biodata mahasiswa kompak satu angkatan',
                     '9. Masing-masing slide digunakan utk 1 mahasiswa dan berisi biodata yaitu: **foto, nama lengkap, nama panggilan, tempat tanggal lahir, asal, sosmed (diutamakan IG), first impression**',
                     '10. Foto biodata yg digunakan adalah foto screenshot twibbon dgn ukuran **5x5**',
-                    '11. Bagian first impression diisi oleh satu anggota angkatan',
+                    '11. Bagian first impression diisi oleh setiap anggota angkatan',
                     '12. Semua format slide biodata mahasiswa harus kompak satu angkatan',
                     '13. Untuk slide foto angkatan merupakan foto angkatan yang diambil **pada satu waktu yang sama**',
                     '14. Ketidakhadiran satu atau lebih anggota atas alasan apapun menyebabkan foto angkatan **tidak valid**',
