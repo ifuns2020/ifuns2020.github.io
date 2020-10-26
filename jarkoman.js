@@ -8,7 +8,7 @@ var informations = {
             title: 'Algoritmaru',
             items: [
                 'Target **20** soal terjawab per **Sabtu, 31 Oktober 2020**',
-                'Isi ceklis di [GOOGLE DRIVE](https://docs.google.com/spreadsheets/d/1cDxlTGAK_Nu1Yd16yON_M_kBwO9KZl2RPDHEV217r0s/edit?usp=sharing) [BUKA DI PC] setelah menjawab sampai nomor **12**',
+                'Isi ceklis di [GOOGLE DRIVE](https://docs.google.com/spreadsheets/d/1cDxlTGAK_Nu1Yd16yON_M_kBwO9KZl2RPDHEV217r0s/edit?usp=sharing) [BUKA DI PC] setelah menjawab sampai nomor **15**',
                 [
                     '### List Jawaban',
                     '_NB penulisan harus sama persis ya, huruf besar kecil dan tanda bacanya juga_',
@@ -24,7 +24,10 @@ var informations = {
                     '10. `GhozaNadaIqbal`',
                     '11. `HEY TAYO`',
                     '12. `Heri_Prasetyo`',
-                    '13. `???` (seputar insider)'
+                    '13. `INSIDER_JAYA`',
+                    '14. `Secure Socket Layer`',
+                    '15. `Arsa Coffee & Library`',
+                    '16. `???`'
                 ],
                 [
                     '### Rules Chat Kating',
@@ -46,6 +49,25 @@ var informations = {
         {
             title: 'Buku Angkatan (DL Kamis 29 Oktober 2020 08.00 WIB)',
             items: [
+                [
+                    '### Pengisian foto ijazah dan first impression: [KLIK DI SINI](https://forms.gle/1rVKW6rTxQxPMWEC9)',
+                    '- Deadline: **Selasa, 27 Oktober 2020 23.59**',
+                    '- Untuk foto, kirimkan foto aslinya, kalau terpaksa tidak bisa, di scan aja gpp',
+                    '- Foto diusahakan berwarna',
+                    '- Ukuran foto **maksimal 1MB**',
+                    '- Format nama file foto: **NIM_Nama Lengkap**',
+                    '- Untuk first impression 2-3 kata, DI ISI DENGAN SEPENUH HATI, PIKIRKAN DENGAN BENAR'
+                ],
+                [
+                    '### Link pengisian buku angkatan: [KLIK DI SINI](https://docs.google.com/presentation/d/1rGeaDWi0wQHNzXmGuxSkG4PjeI38SI5np6WOeOiZZJo/edit?usp=sharing)',
+                    '- Deadline: **Senin, 26 Oktober 2020 23.59**',
+                    '- Isi nama lengkap, nama panggilan (1 aja biar sama), TTL, asal, dan IG (IG juga 1 aja)',
+                    '- Penulisan Asal: (Kabupaten/Kota), (Provinsi)',
+                    '- Penulisan TTL: (Tempat), (Tanggal) (Bulan)',
+                    '- Bagian first impression dikosongi dulu',
+                    '- Edit [twibbon](https://drive.google.com/file/d/14Oykb35yXIWhalravcjj9PhQstZUD-9u/view?usp=sharing) dengan foto twibbon Dhinakara dulu (perbandingan 1:1), kemudian masukkan di google slidesnya'
+                ],
+                'Ketentuan pengisian buku angkatan: [LIHAT DI SINI](https://docs.google.com/document/d/1_NOlwlmNgYKPFeWfghpyASRMEuOyskLHxZSVHPBRFXk/edit?usp=sharing)',
                 [
                     '### Deskripsi dan Ketentuan',
                     '1. Penugasan bersifat kelompok dan dikerjakan bersama2 oleh satu angkatan',
@@ -73,10 +95,18 @@ var informations = {
         {
             title: 'Revisi Life Mapping (DL Rabu 28 Oktober 2020 18.00 WIB)',
             items: [
+                '[LINK GOOGLE DRIVE LIFEMAP](https://drive.google.com/drive/u/0/folders/1rGvvCzf7qk1_KuYdpO97_0raEhXWmXE6)',
+                [
+                    '### Ketentuan revisi:',
+                    '- Background terserah warna apa, tapi format gradientnya sama semua, untuk ketentuan bisa dilihat di link google drive lifemap',
+                    '- Semua **wajib melakukan** revisi karena revisi major :)',
+                    '- Setelah revisi, bisa dikumpulkan di: [google forms](https://forms.gle/kDCgyuzzhGVN17yF7)',
+                    '- Setelah mengumpulkan, ceklis nama kalian di link google drive lifemap'
+                ],
                 [
                     'Ukuran 2K: **2560x1440px**',
                     '',
-                    'Tema gradien buat background: #f3ff7e, #00d4ff (menunggu konfirmasi)'
+                    'Tema gradien buat background: LINEAR GRADIENT DI TENGAH (WARNA BEBAS)'
                 ],
                 [
                     '### Info',
